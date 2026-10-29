@@ -10,5 +10,5 @@ Micro Tasks:
 1. Promises.
 2. Await.
 
-MAcro Tasks:
+Macro Tasks:
 1. setTimeout.
