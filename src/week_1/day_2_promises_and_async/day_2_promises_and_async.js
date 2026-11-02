@@ -1,4 +1,5 @@
-// 1. Promise
+export const day_2_promises_and_async = () => {
+    // 1. Promise
 
 const { createHash, randomUUID } = require("node:crypto");
 
@@ -37,3 +38,4 @@ const waitAsyncWithTryCatch = async (id, requestId) => {
         throw error;
     }
 };
+}
