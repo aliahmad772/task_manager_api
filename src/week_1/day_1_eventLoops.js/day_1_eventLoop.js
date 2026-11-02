@@ -1,4 +1,5 @@
-// Sync
+export const day_1_eventLoop = () => {
+    // Sync
 console.log("1 Sync");
 
 // Macrotask: It has lower priority then the microtasks 
@@ -36,3 +37,5 @@ run();
 
 
 
+
+};
