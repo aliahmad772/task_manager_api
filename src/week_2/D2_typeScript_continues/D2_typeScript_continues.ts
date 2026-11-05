@@ -41,6 +41,18 @@ enum Color {
 let c: Color = Color.Red;
 console.log(c);
 
+// 4. Extend Interface: TypeScript allows you to extend an interface by creating a new interface that inherits the properties of the original interface.
 
+interface User {
+    name: string;
+    age: number;
+}
 
+interface Admin extends User {
+    permissions: string[];
+}
 
+function abcd (obj: Admin ) {
+    obj.permissions = ["read", "write", "delete"]
+  
+}
